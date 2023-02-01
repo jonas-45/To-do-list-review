@@ -99,10 +99,8 @@ const addTaskToDisplay = (task) => {
   checkBoxInput.classList.add('checkbox');
   descInput.classList.add('task-desc');
   descInput.setAttribute('value', task.description);
-
-  li.appendChild(checkBoxInput);
-  li.appendChild(descInput);
-  li.appendChild(dotImage);
+  
+  li.appendChild(checkBoxInput,descInput,dotImage);
   ul.appendChild(li);
 
   if (task.completed) {
