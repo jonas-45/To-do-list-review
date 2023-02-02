@@ -1,5 +1,5 @@
-import Dots from './images/dots.png';
-import remove from './images/remove.png';
+import Dots from '../images/dots.png';
+import remove from '../images/remove.png';
 import TasksOperations from './crud.js';
 import allTasks from './taskArray.js';
 import removeTaskFromDisplay from './removeTaskFromDisplay.js';

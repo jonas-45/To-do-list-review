@@ -1,8 +1,7 @@
-import './style.css';
-import allTasks from './taskArray.js';
-import TasksOperations from './crud.js';
-import { addTaskToDisplay, displayAllTasks } from './addTaskToDisplay.js';
-// import removeTaskFromDisplay from './removeTaskFromDisplay.js';
+import './styles/style.css';
+import allTasks from './modules/taskArray.js';
+import TasksOperations from './modules/crud.js';
+import { addTaskToDisplay, displayAllTasks } from './modules/addTaskToDisplay.js';
 import refresh from './images/refresh.png';
 
 const taskDescriptionInput = document.getElementById('input-task');
