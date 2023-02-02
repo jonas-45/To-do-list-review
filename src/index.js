@@ -1,7 +1,7 @@
 import './styles/style.css';
 import allTasks from './modules/taskArray.js';
 import TasksOperations from './modules/crud.js';
-import { showTaskonPage, displayAllTasks } from './modules/addTaskToDisplay.js';
+import { addTaskToDisplay, displayAllTasks } from './modules/addTaskToDisplay.js';
 import refresh from './images/refresh.png';
 
 const taskDescriptionInput = document.getElementById('input-task');
@@ -17,7 +17,7 @@ if (allTasks.length > 0) {
 taskDescriptionInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     taskObj.addTask(e.target.value);
-    showTaskonPage(allTasks[allTasks.length - 1]);
+    addTaskToDisplay(allTasks[allTasks.length - 1]);
     e.target.value = '';
   }
 });
