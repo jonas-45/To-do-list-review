@@ -91,33 +91,31 @@ describe('Remove task', () => {
 
   describe('Clear completed tasks', () => {
     test('clearAllCompletedTasks should remove all completed tasks', () => {
-      
-      //Arrange
+      // Arrange
       const taskArr = [
         {
           index: 1,
           description: 'Task 1',
-          completed: false
-        },{
+          completed: false,
+        }, {
           index: 2,
           description: 'Task 2',
-          completed: true
-        },{
+          completed: true,
+        }, {
           index: 3,
           description: 'Task 3',
-          completed: true
-        }
+          completed: true,
+        },
       ];
       const taskOpertaionsObj = new TasksOperations(taskArr);
-  
-      //Act
+
+      // Act
       taskOpertaionsObj.clearAllCompletedTasks();
-  
-      //Assert
+
+      // Assert
       expect(taskOpertaionsObj.tasksArr).toHaveLength(1);
-      expect(taskOpertaionsObj.tasksArr[0].description).toEqual('Task 1')
+      expect(taskOpertaionsObj.tasksArr[0].description).toEqual('Task 1');
       expect(localStorage.setItem).toHaveBeenCalled();
-  
     });
   });
 });
