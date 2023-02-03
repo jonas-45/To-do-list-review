@@ -1,3 +1,4 @@
+
 import TasksOperations from './crud.js';
 import Task from './task-class.js';
 
@@ -59,33 +60,6 @@ describe('Remove task', () => {
     tasksOperations.removeTask(taskIndex);
     expect(localStorage.setItem).toHaveBeenCalledWith('tasks', JSON.stringify([new Task(1, 'task 1')]));
   });
-  // edit and clear all tasks
 
-  // tasksOperations.test.js
 
-  describe('editTask', () => {
-    it('should edit the task description', () => {
-      tasksOperations.tasksArr = [{ description: 'Study german ', completed: false }];
-      tasksOperations.editTask(1, 'Edited task');
-      expect(tasksOperations.tasksArr[0].description).toBe('Edited task');
-    });
-
-    it('should update local storage with updated tasks array', () => {
-      tasksOperations.editTask(1, 'Edited task');
-      expect(localStorage.setItem).toHaveBeenCalled();
-    });
-  });
-
-  describe('markAsCompleted', () => {
-    it('should update the task\'s completed status', () => {
-      tasksOperations.tasksArr = [{ description: 'Study C#', completed: false }];
-      tasksOperations.markAsCompleted(1);
-      expect(tasksOperations.tasksArr[0].completed).toBe(true);
-    });
-
-    it('should update the local storage with the updated tasks array', () => {
-      tasksOperations.markAsCompleted(1);
-      expect(localStorage.setItem).toHaveBeenCalled();
-    });
-  });
 });
