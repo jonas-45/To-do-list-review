@@ -88,4 +88,36 @@ describe('Remove task', () => {
       expect(localStorage.setItem).toHaveBeenCalled();
     });
   });
+
+  describe('Clear completed tasks', () => {
+    test('clearAllCompletedTasks should remove all completed tasks', () => {
+      
+      //Arrange
+      const taskArr = [
+        {
+          index: 1,
+          description: 'Task 1',
+          completed: false
+        },{
+          index: 2,
+          description: 'Task 2',
+          completed: true
+        },{
+          index: 3,
+          description: 'Task 3',
+          completed: true
+        }
+      ];
+      const taskOpertaionsObj = new TasksOperations(taskArr);
+  
+      //Act
+      taskOpertaionsObj.clearAllCompletedTasks();
+  
+      //Assert
+      expect(taskOpertaionsObj.tasksArr).toHaveLength(1);
+      expect(taskOpertaionsObj.tasksArr[0].description).toEqual('Task 1')
+      expect(localStorage.setItem).toHaveBeenCalled();
+  
+    });
+  });
 });

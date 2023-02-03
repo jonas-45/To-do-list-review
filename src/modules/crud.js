@@ -40,6 +40,14 @@ class TasksOperations {
  updateTasks = (newTasksArr) => {
    this.tasksArr = newTasksArr;
  }
+
+ clearAllCompletedTasks = () => {
+  this.tasksArr = this.tasksArr.filter((task) => !task.completed);
+  this.tasksArr.forEach((element,i) => {
+    element.index = i + 1;
+  });
+    this.updateLocalStorage();
+  };
 }
 export default TasksOperations;
 // module.exports = TasksOperations;
