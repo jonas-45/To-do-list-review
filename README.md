@@ -14,7 +14,6 @@
 - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
 - [Future Features](#future-features)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
@@ -24,14 +23,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To-do Lists <a name="about-project"></a>
+# 📖 To-do Lists <a href="about-project" name="about-project"></a>
 
 This app allows you to create a to-do list to make your day efficient and manage your time well. You can add tasks, remove tasks, edit tasks and mark tasks as completed.
 
 ## 🛠 Built With <a name="built-with">Build With</a>
- >Html
- >Css
- >Javascript
+ - Html
+ - Css
+ - Javascript
 
  ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -47,15 +46,27 @@ This app allows you to create a to-do list to make your day efficient and manage
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 Vscode was used in developing this project but you can use any IDE that you are confortable with such as sublime, notpad++ etc
 ### Setup
 
-***You can clone the repository using instructions below;
+### Clone this repository
+
 ```bash
 $ git clone https://github.com/jonas-45/To-do-list-review.git
 $ cd To-do-list-review
+```
+### Run project
+
+```bash
+$ npm install
+$ npm run start # this will make webpack watching for your changes in code
+```
+
+### Open page in browser
+```bash
+$ npm start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -63,14 +74,14 @@ $ cd To-do-list-review
 <!--Future features -->
 ## Future features <a name="future-features"></a>
 The following features will be added to the project in the future;
-1.Add user account creation to help user access to-do list from anywhere on any device.<br>
-2. Store task in a database to persist permanently.
+- Add user account creation to help user access to-do list from anywhere on any device.<br>
+- Store task in a database to persist permanently.
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Wullah Jonas Nuta**
 
 - GitHub: [@jonas-45](https://github.com/jonas-45)
 - Twitter: [@jonaswullah](https://twitter.com/jonaswullah)
@@ -95,9 +106,9 @@ If you like this project, give it a thumps up and follow me on Github for more e
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a href="#acknowlegements" name="acknowledgements"></a>
 
-Webpack package was used with the htmlwebpackplugin and loaders such as file loaders.
+Webpack package was used for this project setup together with the htmlwebpackplugin and other loaders such as file loaders.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
