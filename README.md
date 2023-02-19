@@ -52,15 +52,18 @@ To get a local copy up and running, follow these steps.
 Vscode was used in developing this project but you can use any IDE that you are confortable with such as sublime, notpad++ etc
 ### Setup
 
-Get the repositor url from above and clone it to your desired folder using
- >git clone <repository url>
+***You can clone the repository using instructions below;
+```bash
+$ git clone https://github.com/jonas-45/To-do-list-review.git
+$ cd To-do-list-review
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!--Future features -->
 ## Future features <a name="future-features"></a>
 The following features will be added to the project in the future;
-1.Add user account creation to help user access to-do list from anywhere on any device.
+1.Add user account creation to help user access to-do list from anywhere on any device.<br>
 2. Store task in a database to persist permanently.
 
 <!-- AUTHORS -->
