@@ -84,15 +84,14 @@ The following features will be added to the project in the future;
 👤 **Wullah Jonas Nuta**
 
 - GitHub: [@jonas-45](https://github.com/jonas-45)
-- Twitter: [@jonaswullah](https://twitter.com/jonaswullah)Rida Bensalem
+- Twitter: [@jonaswullah](https://twitter.com/jonaswullah)
 - LinkedIn: [jonas-wullah](https://linkedin.com/in/jonas-wullah)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
