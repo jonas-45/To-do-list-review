@@ -37,7 +37,7 @@ This app allows you to create a to-do list to make your day efficient and manage
 
 > Please find below a link to the live demo of the project
 
-- [Live Demo Link](https://jonas-45.github.io/To-do-list/dist/)
+- [Live Demo Link](https://jonas-45.github.io/To-do-list-review/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
