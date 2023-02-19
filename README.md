@@ -84,7 +84,7 @@ The following features will be added to the project in the future;
 👤 **Wullah Jonas Nuta**
 
 - GitHub: [@jonas-45](https://github.com/jonas-45)
-- Twitter: [@jonaswullah](https://twitter.com/jonaswullah)
+- Twitter: [@jonaswullah](https://twitter.com/jonaswullah)Rida Bensalem
 - LinkedIn: [jonas-wullah](https://linkedin.com/in/jonas-wullah)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -107,8 +107,8 @@ If you like this project, give it a thumps up and follow me on Github for more e
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a href="#acknowlegements" name="acknowledgements"></a>
-
-Webpack package was used for this project setup together with the htmlwebpackplugin and other loaders such as file loaders.
+- A very big thank you to @ridabensalem for your time and effort in reviewing this projects.
+- Webpack package was used for this project setup together with the htmlwebpackplugin and other loaders such as file loaders.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
